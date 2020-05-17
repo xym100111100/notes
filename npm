@@ -1,0 +1,5 @@
+npm install 的时候出现
+npm ERR! errno -4058
+npm ERR! enoent ENOENT: no such file or directory
+
+可能是因为版本锁定导致问题，删除package-lock.json再重新npm install就行了
